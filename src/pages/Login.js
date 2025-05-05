@@ -27,8 +27,8 @@ function Login() {
   return (
     <div className="login-container">
       <h1 className="titulo-login">Login</h1>
-      {/* Caixa de login com margens maiores */}
-      <form onSubmit={handleLogin} className="bg-white p-6 rounded-lg shadow-md sm:max-w-lg sm:mx-auto sm:my-16 my-8 mx-4">
+      {/* Caixa de login com margens ajustadas */}
+      <form onSubmit={handleLogin} className="bg-white p-6 rounded-lg shadow-md sm:max-w-lg sm:mx-auto sm:my-16 my-12 mx-6">
         <div className="input-group">
           <label htmlFor="email">E-mail</label>
           <input
