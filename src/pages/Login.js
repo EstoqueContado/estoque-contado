@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
@@ -27,7 +27,8 @@ function Login() {
   return (
     <div className="login-container">
       <h1 className="titulo-login">Login</h1>
-      <form onSubmit={handleLogin}>
+      {/* Aqui a classe de fundo foi modificada */}
+      <form onSubmit={handleLogin} className="bg-white sm:bg-transparent p-6 rounded-lg shadow-md">
         <div className="input-group">
           <label htmlFor="email">E-mail</label>
           <input
